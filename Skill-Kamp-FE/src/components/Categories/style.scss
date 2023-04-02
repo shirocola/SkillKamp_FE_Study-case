@@ -1,0 +1,107 @@
+.categories {
+    hr {
+        border: 1px solid #000000;
+        margin: 20px 0;
+    }
+    text-align: center;
+    margin: 100px 0;
+  
+    h2 {
+      font-size: 36px;
+      margin-bottom: 50px;
+    }
+  
+    .categories-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  
+      .category {
+        width: calc(25% - 40px);
+        margin: 20px;
+        position: relative;
+        transition: all 0.3s ease-in-out;
+  
+        &:hover {
+          transform: translateY(-10px);
+  
+          img {
+            transform: scale(1.1);
+          }
+  
+          h3 {
+            color: #0074c2;
+          }
+        }
+  
+        .category-wrapper {
+          position: relative;
+          overflow: hidden;
+  
+          img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            object-position: center;
+            transition: all 0.3s ease-in-out;
+          }
+  
+          .category-details {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+  
+          h3 {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 0;
+          }
+  
+          .category-price {
+            font-size: 16px;
+            margin: 0;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+  
+            span:first-child {
+              margin-right: 5px;
+            }
+          }
+  
+          .category button {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #FFFFFF;
+            border: 1px solid #000000;
+            padding: 8px 16px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            width: 100%;
+            border-radius: 0;
+  
+            &:hover {
+              background-color: #000000;
+              color: #FFFFFF;
+            }
+  
+            span {
+              font-size: 16px;
+              font-weight: bold;
+              text-transform: uppercase;
+            }
+          }
+        }
+      }
+    }
+  }
+  
