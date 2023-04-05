@@ -103,3 +103,100 @@ header {
   }
 }
 
+/* Define the default font size for the body */
+body {
+  font-size: 16px;
+}
+
+/* Define the font size for smaller screens */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Adjust the header for smaller screens */
+@media only screen and (max-width: 768px) {
+  header {
+    a {
+      font-size: 36px;
+    }
+
+    .header-container {
+      flex-direction: column;
+
+      .logo-container {
+        margin-bottom: 1rem;
+      }
+
+      nav {
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+
+/* Adjust the categories section for smaller screens */
+@media only screen and (max-width: 768px) {
+  .categories {
+    h2 {
+      font-size: 20px;
+    }
+
+    .categories-container {
+      flex-wrap: wrap;
+
+      .category {
+        margin: 1rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  body {
+    font-size: 12px;
+  }
+
+  header {
+    a {
+      font-size: 28px;
+    }
+
+    .header-container {
+      padding: 0.5rem;
+
+      .logo-container {
+        margin-bottom: 0.5rem;
+      }
+
+      nav {
+        margin-top: 0.5rem;
+      }
+
+      .cart-container img {
+        width: 20px;
+      }
+    }
+  }
+
+  .categories {
+    h2 {
+      font-size: 16px;
+      margin-bottom: 1rem;
+    }
+
+    .categories-container {
+      .category {
+        margin: 0.5rem;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+

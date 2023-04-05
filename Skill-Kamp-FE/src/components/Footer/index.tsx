@@ -37,7 +37,7 @@ const Footer = () => {
         <h3>Join Our Mailing List</h3>
         <form>
           <input type="email" placeholder="Enter your email" />
-          <button>Subscribe</button>
+          <button>Subscribe Now</button>
         </form>
       </div>
       <div className="footer-bottom">

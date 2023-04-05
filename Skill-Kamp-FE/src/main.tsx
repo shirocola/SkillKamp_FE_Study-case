@@ -5,6 +5,7 @@ import PromoCodeBar from './components/Promocode'
 import Header from './components/Header'
 import Categories from './components/Categories'
 import Footer from './components/Footer'
+import Ourstory from './pages/OurStory'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
@@ -12,7 +13,8 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <PromoCodeBar />
     <Header />
     <App />
-    <Categories />
+    {/* <Categories /> */}
+    {/* <Ourstory /> */}
     <Footer />
   </React.StrictMode>,
 )
