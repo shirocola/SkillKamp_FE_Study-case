@@ -13,8 +13,6 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <PromoCodeBar />
     <Header />
     <App />
-    {/* <Categories /> */}
-    {/* <Ourstory /> */}
     <Footer />
   </React.StrictMode>,
 )

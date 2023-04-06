@@ -4,7 +4,7 @@ import "./style.scss";
 const Header = () => {
   return (
     <header>
-        <a href="#" target="_self">happy kids</a>
+        <a href="/demo-store" target="_self">happy kids</a>
       <div className="header-container">
         <nav>
           <ul>
