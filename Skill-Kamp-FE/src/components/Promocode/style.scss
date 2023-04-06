@@ -28,4 +28,32 @@
       transition: opacity 0.5s ease-in-out;
     }
   }
+
+  /* Define the default font size for the body */
+body {
+  font-size: 16px;
+}
+
+/* Define the font size for smaller screens */
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Adjust the promo code bar for smaller screens */
+@media only screen and (max-width: 768px) {
+  .promo-code-bar {
+    font-size: 14px;
+    padding: 5px;
+  }
+}
+
+/* Adjust the promo code message for smaller screens */
+@media only screen and (max-width: 480px) {
+  .promo-code-bar__message {
+    font-size: 12px;
+  }
+}
+
   

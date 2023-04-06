@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./style.scss";
-import { ArrowBackIos, ArrowForwardIos } from "@material-ui/icons";
+import { ArrowBackIos, ArrowForwardIos } from "@material-ui/icons"
 
 type SliderProps = {
   images: string[];
