@@ -2,9 +2,10 @@ import React from "react";
 import { Button, Grid } from "@material-ui/core";
 import ProductCard from "../../components/ProductCard"
 
+
 const products = [
   {
-    image: "./Happy%20kids-Materials/Product/Product1.png",
+    image: "https://github.com/shirocola/SkillKamp_FE_Study-case/blob/634c219f7f9624c7b803a4e7c1af31de1ca889d0/Skill-Kamp-FE/public/Happy%20kids-Materials/Product/Product1.png",
     name: "Product 1",
     price: "19,99₺",
   },
@@ -77,18 +78,7 @@ const ShopCollection = () => {
           </Grid>
         ))}
       </Grid>
-      <Button
-        variant="contained"
-        color="inherit"
-        style={{
-          padding: "8px 16px",
-          backgroundColor: "#282828",
-          color: "#FFFFFF",
-          border: "1px solid black",
-        }}
-      >
-        Shop All
-      </Button>
+
       <hr />
     </div>
   );

@@ -9,7 +9,6 @@ const index = () => {
     './Happy kids-Materials/Banner1.png',
     './Happy kids-Materials/Banner2.png',
     './Happy kids-Materials/Banner3.png',
-    './Happy kids-Materials/Banner4- Our story.png'
   ];
   return (
     <div>
